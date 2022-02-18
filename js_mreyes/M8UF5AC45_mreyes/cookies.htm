@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="cat">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="contenedor">
+            <p><input type="text" id="usuari" placeholder="Usuari"></p>
+            <p><input type="password" id="psswd" required placeholder="Contrasenya"></p>
+            <p><input type="password" id="confpsswd" required placeholder="Repetició de la Contrasenya"></p>
+            <form action="" onsubmit="return validar();"><button>Comprovar</button></form>
+            <hr width="80%">
+            <p><input type="text" id="nom" placeholder="Nom"></p>
+            <p><input type="text" id="cognom" placeholder="Cognom"></p>
+            <form action="" onclick="guardar()"><button id="guardar">Guardar dades</button></form>
+            <form action="" onclick="recuperar()"><button id="recuperar">Recuperar dades</button></form>
+            <form action="" onclick="esborrar()"><button id="esborrar">Esborrar dades</button></form>
+        </div>
+        <script type="text/javascript" src="js/cookies.js"></script>
+    </body>
+</html>

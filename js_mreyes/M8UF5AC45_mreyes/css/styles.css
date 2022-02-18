@@ -1,0 +1,37 @@
+body {
+    background-color: #152733
+}
+#contenedor {
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 380px;
+    height: 650px;
+    margin-top: 5%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30%;
+    vertical-align: middle;
+}
+hr {
+    border: 1px solid white;
+}
+button {
+    background-color: #0080FF;
+    color: white;
+    width: 81%;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    font-size:medium ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+input {
+    padding-left: 20px;
+    border: none;
+    text-align: left;
+    border-radius: 8px;
+    width: 75%;
+    height: 40px;
+    margin: 5px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="cat">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Calculadora</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="grid">
+                <input type="text" name="" id="result">
+
+                <button type="button" id="ac" class="sign" onclick="neteja()">AC</button>
+
+                <button type="button" value="7" onclick="operation('7')" class="number">7</button>
+                <button type="button" value="8" onclick="operation('8')" class="number">8</button>
+                <button type="button" value="9" onclick="operation('9')" class="number">9</button>
+                <button type="button" class="sign" onclick="operation('/')" value="/">&divide;</button>
+
+                <button type="button" value="4" onclick="operation('4')" class="number">4</button>
+                <button type="button" value="5" onclick="operation('5')" class="number">5</button>
+                <button type="button" value="6" onclick="operation('6')" class="number">6</button>
+                <button type="button" class="sign" onclick="operation('*')"value="*">&times;</button>
+
+                <button type="button" value="1" onclick="operation('1')" class="number">1</button>
+                <button type="button" value="2" onclick="operation('2')" class="number">2</button>
+                <button type="button" value="3" onclick="operation('3')" class="number">3</button>
+                <button type="button" class="sign"  onclick="operation('-')"value="-">-</button>
+
+            
+                <button type="button" value="0" onclick="operation('0')" class="number">0</button>
+                <button type="button" value="." onclick="operation('.')">.</button>
+                <button type="button" id="igual" class="sign" value="=" onclick="_resultado('=')">=</button>
+                <button type="button" class="sign" onclick="operation('+')" value="+">+</button>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/calculadora.js">
+        </script>
+    </body>
+</html>
